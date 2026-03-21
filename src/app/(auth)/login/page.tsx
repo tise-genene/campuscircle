@@ -60,10 +60,10 @@ export default function LoginPage() {
         </p>
         <div className="flex flex-col gap-2">
           {[
-            ["🍜", "Cheap eats near campus today"],
-            ["📢", "Live campus alerts & notices"],
-            ["⭐", "Top-rated spots by real students"],
-            ["🤫", "Anonymous confessions board"],
+            ["Cheap eats near campus today"],
+            ["Live campus alerts & notices"],
+            ["Top-rated spots by real students"],
+            ["Anonymous confessions board"],
           ].map(([icon, text]) => (
             <div key={text} className="flex items-center gap-3 text-[11px] text-white/80">
               <span className="text-base">{icon}</span>
